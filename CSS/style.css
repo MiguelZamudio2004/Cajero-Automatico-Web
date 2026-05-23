@@ -1,0 +1,129 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+.encabezado {
+    background-color: blueviolet;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-shadow: black 1px 1px 2px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    gap: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.form-login h2 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid blueviolet;
+    color: #333;
+    font-size: 22px;
+}
+
+.cajas {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 12px 14px;
+    background-color: #e9ecef;
+    color: #333;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.cajas:focus {
+    background-color: #d1d8e0;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    border: solid blueviolet;
+    background-color: #ffffff;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+.form-login p {
+    margin: 15px 0 5px;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-login a {
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    margin-top: auto;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo-foot {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: black 1px 1px 2px;
+}
+
+.foot ul {
+    list-style: none; 
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.foot ul li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.foot .logo {
+    width: 20px;
+    margin-right: 8px;
+}
